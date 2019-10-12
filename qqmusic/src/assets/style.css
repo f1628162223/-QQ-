@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none ;
+}
+
+#app{
+  
+
+    
+}
+
+
+
+/* 轮播图箭头 */
+ .el-carousel__arrow--left{
+    left:0px;
+    top: calc(100% - 50% - 53px)
+}
+ .el-carousel__arrow--right{
+    right:0px;
+    top: calc(100% - 50% - 53px)
+}
+ .el-carousel__arrow{
+    border-radius: initial;
+    width: 86px;
+    height: 107px;
+    color: black;
+    font-size: 30px;
+}
+
+ .el-carousel__indicator.el-carousel__indicator--horizontal{
+    margin: 0 10px;
+    padding: 10px;
+    position: relative;
+}
+ .el-carousel__button{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* mv轮播图箭头 */
+.MvSong .el-carousel__arrow--left{
+    left:0px;
+    top: calc(100% - 40% )
+}
+.MvSong .el-carousel__arrow--right{
+    right:0px;
+    top: calc(100% - 40% )
+}
+
+
+
+
+    /* 数字轮播 */
+.FigureSpecial .el-carousel__indicators--outside{
+    position: absolute;
+    bottom: 70px;
+    left:calc(100% - 54% );
+}
+
+.FigureSpecial .el-carousel__arrow--left{
+    left:-6%;
+    top: calc(100% - 40% );
+   
+}
+.FigureSpecial .el-carousel__arrow--right{
+    right:-6%;
+    top: calc(100% - 40% );
+}
+
+
+
+.div .el-carousel__arrow--right{
+    right:-30px;
+    top: 0px;
+    display: block !important;
+}
+
